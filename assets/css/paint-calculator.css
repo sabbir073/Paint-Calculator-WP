@@ -119,7 +119,7 @@ input:disabled {
 
 .dimension-fields label {
     font-weight: bold;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     font-family: "Futura-Book", sans-serif;
 }
 
@@ -160,9 +160,9 @@ input:disabled {
     width: 38%;
 }
 
-.additional-wall label {
+/* .additional-wall label {
     width: 10%;
-}
+} */
 
 .additional-wall span.remove-wall {
     font-size: 16px !important;
@@ -258,4 +258,13 @@ button.reset-btn {
         margin-bottom: 5px;
         font-family: "Futura-Book", sans-serif;
     }
+}
+
+
+span.label {
+    font-size: 15px
+}
+
+label {
+    font-size: 15px
 }
